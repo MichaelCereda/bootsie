@@ -1,0 +1,12 @@
+{
+  "engine":"nunjucks",
+  "bootstrap":"website.json",
+  "languages": ["en","it"],
+  "pretty_urls":true,
+  "template_dir":"./templates",
+  "db_dir":"./db",
+  "build_dir":"../build",
+  "parsers":{
+    "md": "markdown"
+  }
+}

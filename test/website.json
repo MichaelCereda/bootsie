@@ -1,0 +1,27 @@
+{
+  "global":{
+    "website":{
+      "title":"CMYKlove",
+      "description":"Multidisciplinary creative lab"
+    }
+  },
+  "pages":{
+    "/":{
+      "template":"index.html",
+      "content": {
+        "home | file": "home.json",
+        "services | file":"services.json",
+        "bio | file":"bio.json"
+
+      }
+    },
+    "/archive/test": {
+      "template":"archive.html",
+      "base_dir":"/archive",
+      "content": [
+        {"post | file": "archive/post.json"},
+        {"post | file": "archive/post.json"}
+      ]
+    }
+  }
+}
