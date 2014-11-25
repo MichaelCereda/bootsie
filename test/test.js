@@ -28,7 +28,7 @@ describe('Bootsie', function(){
     });
 
     describe('Json Parser', function () {
-        var json_parser = require('../lib/json_parser');
+        var json_parser = require('../lib/json_parser')(load_conf);
         var test_json = {
             "foo":{
                 "bar":[
