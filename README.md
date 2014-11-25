@@ -189,3 +189,7 @@ function bootsie_file_filter (conf){
 module.exports = bootsie_file_filter;
 
 ```
+
+## Help Needed
+Create new plugin, send pull requests, bootsie needs to grow!
+Thanks! :)
