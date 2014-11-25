@@ -1,16 +1,13 @@
 Bootsie
 =======
-
-Static website generator simple and modular
-
+Your next static website generator
+<!--
 <p align="center">
-<!--<a href="http://cmyklove.com/bootsie">
+<a href="http://cmyklove.com/bootsie">
 <img height="257" width="114" src="https://bootsie-img-2x.png">
-</a>-->
+</a>
 </p>
-
-# Bootsie
-> Your next static website generator
+-->
 
 ##Why you should choose bootsie?
 * Simple and direct, stop wasting time with long configurations
@@ -181,6 +178,8 @@ function bootsie_file_filter (conf){
      contents contains the string "home.md"
     */
     function __render(target_name, content){
+
+        //Everything returned by the plugin goes inside the key
         return content;
     }
     return {
